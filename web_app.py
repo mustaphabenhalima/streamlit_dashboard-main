@@ -147,7 +147,7 @@ if __name__ == "__main__":
     # '2016_data', '2017_data', '2018_data', '2019_data', '2020_data'
     
     # Setting up column for plots
-    plot_1, plot_2 = st.columns(2)
+    plot_1, plot_2 = st.beta_columns(2)
     
     # Select Files
     if option == '2016_data':
