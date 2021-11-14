@@ -151,7 +151,7 @@ if __name__ == "__main__":
     
     # Select Files
     if option == '2016_data':
-        data = load_data('./dataset/full_2016.csv')
+        data = load_data('https://jtellier.fr/DataViz/full_2016.csv')
         # Streamlit charts variables
         type_local = pd.DataFrame(data['type_local'].value_counts())
         
@@ -206,7 +206,7 @@ if __name__ == "__main__":
         
     
     if option == '2017_data':
-        data = load_data('./dataset/full_2017.csv')
+        data = load_data('https://jtellier.fr/DataViz/full_2017.csv')
         # Streamlit charts variables
         type_local = pd.DataFrame(data['type_local'].value_counts())
         
@@ -260,7 +260,7 @@ if __name__ == "__main__":
             plot_2.plotly_chart(slider_plot(df))
     
     if option == '2018_data':
-        data = load_data('./dataset/full_2018.csv')
+        data = load_data('https://jtellier.fr/DataViz/full_2018.csv')
         # Streamlit charts variables
         type_local = pd.DataFrame(data['type_local'].value_counts())
         
@@ -314,7 +314,7 @@ if __name__ == "__main__":
             plot_2.plotly_chart(slider_plot(df))
         
     if option == '2019_data':
-        data = load_data('./dataset/full_2019.csv')
+        data = load_data('https://jtellier.fr/DataViz/full_2019.csv')
         # Streamlit charts variables
         type_local = pd.DataFrame(data['type_local'].value_counts())
         
@@ -368,7 +368,7 @@ if __name__ == "__main__":
             plot_2.plotly_chart(slider_plot(df))
         
     if option == '2020_data':
-        data = load_data('./dataset/full_2020.csv')
+        data = load_data('https://jtellier.fr/DataViz/full_2020.csv')
         # Streamlit charts variables
         type_local = pd.DataFrame(data['type_local'].value_counts())
         
